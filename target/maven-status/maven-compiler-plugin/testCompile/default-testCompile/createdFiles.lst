@@ -1,0 +1,4 @@
+basicsetup\BaseClass.class
+testclass\TestClass.class
+pageobjects\AddToShoppingCartPage.class
+testclass\DataProviderClass.class

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Running test on chrome browser]]>
+    </line>
+    <line>
+      <![CDATA[Searching for dell 5400 charger]]>
+    </line>
+    <line>
+      <![CDATA[Searching for head fir1111111111111st java book]]>
+    </line>
+    <line>
+      <![CDATA[Searched dell 5400 charger and added to the shopping cart]]>
+    </line>
+    <line>
+      <![CDATA[Searching for head first python]]>
+    </line>
+    <line>
+      <![CDATA[Searching for head fir1111111111111st java book]]>
+    </line>
+    <line>
+      <![CDATA[Searched head first python and added to the shopping cart]]>
+    </line>
+    <line>
+      <![CDATA[Checking for items in the shopping cart]]>
+    </line>
+    <line>
+      <![CDATA[found items in shopping cart and clicked on proceed to check out]]>
+    </line>
+  </reporter-output>
+  <suite name="User acceptance TestSuite" duration-ms="51397" started-at="2019-11-24T16:52:36Z" finished-at="2019-11-24T16:53:28Z">
+    <groups>
+    </groups>
+    <test name="Shopping Cart for Amazon" duration-ms="51397" started-at="2019-11-24T16:52:36Z" finished-at="2019-11-24T16:53:28Z">
+      <class name="testclass.TestClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testclass.TestClass@5ba23b66]" name="setUp" is-config="true" duration-ms="11852" started-at="2019-11-24T22:22:36Z" finished-at="2019-11-24T22:22:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Running test on chrome browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addProductsToShoppingCart(java.lang.String, java.lang.String)[pri:0, instance:testclass.TestClass@5ba23b66]" name="addProductsToShoppingCart" duration-ms="33126" started-at="2019-11-24T22:22:48Z" data-provider="productData" finished-at="2019-11-24T22:23:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dell 5400 charger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[head first python]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Searching for dell 5400 charger]]>
+            </line>
+            <line>
+              <![CDATA[Searching for head fir1111111111111st java book]]>
+            </line>
+            <line>
+              <![CDATA[Searched dell 5400 charger and added to the shopping cart]]>
+            </line>
+            <line>
+              <![CDATA[Searching for head first python]]>
+            </line>
+            <line>
+              <![CDATA[Searching for head fir1111111111111st java book]]>
+            </line>
+            <line>
+              <![CDATA[Searched head first python and added to the shopping cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addProductsToShoppingCart -->
+        <test-method status="PASS" signature="validateShoppingCartItems()[pri:0, instance:testclass.TestClass@5ba23b66]" name="validateShoppingCartItems" duration-ms="5246" started-at="2019-11-24T22:23:21Z" finished-at="2019-11-24T22:23:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Checking for items in the shopping cart]]>
+            </line>
+            <line>
+              <![CDATA[found items in shopping cart and clicked on proceed to check out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateShoppingCartItems -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testclass.TestClass@5ba23b66]" name="tearDown" is-config="true" duration-ms="1156" started-at="2019-11-24T22:23:27Z" finished-at="2019-11-24T22:23:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testclass.TestClass -->
+    </test> <!-- Shopping Cart for Amazon -->
+  </suite> <!-- User acceptance TestSuite -->
+</testng-results>
